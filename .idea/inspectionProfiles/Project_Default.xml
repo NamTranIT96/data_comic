@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="source.service.order_service.*" />
+          <option value="source.main.initialize" />
+          <option value="source.main.loginMT5" />
+          <option value="source.main.getNewOrderFromMainUser" />
+          <option value="source.main.getListOldOrderFromMainUser" />
+          <option value="source.main.insertDatabaseByList" />
+          <option value="source.main.copyOrderToUser" />
+          <option value="source.main.service" />
+          <option value="source.main.database" />
+          <option value="source.database.initialize.database" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
